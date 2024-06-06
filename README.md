@@ -1,4 +1,6 @@
 # Documentation de l'application de renforcement de la sécurité
+![image](https://github.com/CatharsisCoding/Python-Hardening-framatome/assets/97361977/b8e6f885-3c14-43f5-b0dd-0347028ffaa6)
+
 ## Description
 L'application de renforcement de la sécurité est une interface utilisateur graphique (GUI) développée en Python avec PySide6 qui permet d'exécuter diverses tâches de renforcement de la sécurité sur un système Linux.
 
