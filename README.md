@@ -68,6 +68,3 @@ sudo apt install libxcb-cursor0
 
 ## Remarques
 Assurez-vous d'avoir le mot de passe sudoer appropriés pour exécuter les différentes fonctionnalités de l'application.
-Certaines fonctionnalités peuvent nécessiter des dépendances supplémentaires telles que Nmap ou iptables, assurez-vous de les installer si nécessaire.
-``` sudo apt update
-```
