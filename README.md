@@ -11,6 +11,8 @@ Désactivation d'apache2 : Arrête le service Apache HTTP Server.
 Configuration du pare-feu : Configure le pare-feu en définissant des politiques par défaut pour les paquets entrants, sortants et en transit, ainsi que des règles spécifiques pour autoriser certaines connexions.
 Désactivation du port 80 : Bloque les connexions entrantes sur le port 80.
 Scan des vulnérabilités : Utilise l'outil Nmap pour scanner les vulnérabilités de base sur le système local.
+Affichage des règles de pare-feu : Affiche les règles de pare-feu actuellement en vigueur.
+Suppression des règles de pare-feu : Supprime toutes les règles de pare-feu. Une confirmation sera demandée car cette action est potentiellement dangereuse.
 ## Prérequis
 
 Avant d'exécuter cette application, assurez-vous d'avoir installé les logiciels et les modules nécessaires sur votre système.
@@ -49,6 +51,8 @@ pip install pyqt-tools
 sudo apt install libxcb-cursor0
 
 ```
+
+
 ## Utilisation
 **L'application est conçue pour être simple et intuitive à utiliser. Voici comment utiliser chaque fonctionnalité :**
 
@@ -64,6 +68,9 @@ sudo apt install libxcb-cursor0
 
 **Scan des vulnérabilités** : Cliquez sur le bouton "Scan des vulnérabilités" pour scanner les vulnérabilités du système local. Entrez votre mot de passe sudo lorsque vous y êtes invité.
 
+**Affichage des règles de pare-feu** : Utilisez le bouton "Afficher les règles de pare-feu" pour afficher les règles de pare-feu actuellement en vigueur.
+
+**Suppression des règles de pare-feu** : Utilisez le bouton "Supprimer les règles de pare-feu" pour supprimer toutes les règles de pare-feu. Une confirmation sera demandée car cette action est potentiellement dangereuse.
 
 
 ## Remarques
