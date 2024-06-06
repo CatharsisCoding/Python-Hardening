@@ -50,14 +50,22 @@ sudo apt install libxcb-cursor0
 
 ```
 ## Utilisation
-L'application est conçue pour être simple et intuitive à utiliser. Voici comment utiliser chaque fonctionnalité :
+**L'application est conçue pour être simple et intuitive à utiliser. Voici comment utiliser chaque fonctionnalité :**
 
-Sécurisation des fichiers : Cliquez sur le bouton "Sécuriser Fichier" et sélectionnez le fichier à sécuriser. Entrez ensuite votre mot de passe sudo lorsque vous y êtes invité.
-Mise à jour du système : Cliquez sur le bouton "Mettre à jour le système" pour mettre à jour le système. Entrez votre mot de passe sudo lorsque vous y êtes invité.
-Désactivation d'apache2 : Cliquez sur le bouton "Désactiver apache2" pour arrêter le service Apache2. Entrez votre mot de passe sudo lorsque vous y êtes invité.
-Configuration du pare-feu : Cliquez sur le bouton "Configurer le pare-feu" pour configurer le pare-feu avec des règles spécifiques. Entrez votre mot de passe sudo lorsque vous y êtes invité.
-Désactivation du port 80 : Cliquez sur le bouton "Désactiver le port 80" pour bloquer les connexions entrantes sur le port 80. Entrez votre mot de passe sudo lorsque vous y êtes invité.
-Scan des vulnérabilités : Cliquez sur le bouton "Scan des vulnérabilités" pour scanner les vulnérabilités du système local. Entrez votre mot de passe sudo lorsque vous y êtes invité.
+**Sécurisation des fichiers** : Cliquez sur le bouton "Sécuriser Fichier" et sélectionnez le fichier à sécuriser. Entrez ensuite votre mot de passe sudo lorsque vous y êtes invité.
+
+**Mise à jour du système** : Cliquez sur le bouton "Mettre à jour le système" pour mettre à jour le système. Entrez votre mot de passe sudo lorsque vous y êtes invité.
+
+**Désactivation d'apache2** : Cliquez sur le bouton "Désactiver apache2" pour arrêter le service Apache2. Entrez votre mot de passe sudo lorsque vous y êtes invité.
+
+**Configuration du pare-feu** : Cliquez sur le bouton "Configurer le pare-feu" pour configurer le pare-feu avec des règles spécifiques. Entrez votre mot de passe sudo lorsque vous y êtes invité.
+
+**Désactivation du port 80** : Cliquez sur le bouton "Désactiver le port 80" pour bloquer les connexions entrantes sur le port 80. Entrez votre mot de passe sudo lorsque vous y êtes invité.
+
+**Scan des vulnérabilités** : Cliquez sur le bouton "Scan des vulnérabilités" pour scanner les vulnérabilités du système local. Entrez votre mot de passe sudo lorsque vous y êtes invité.
+
+
+
 ## Remarques
 Assurez-vous d'avoir le mot de passe sudoer appropriés pour exécuter les différentes fonctionnalités de l'application.
 Certaines fonctionnalités peuvent nécessiter des dépendances supplémentaires telles que Nmap ou iptables, assurez-vous de les installer si nécessaire.
