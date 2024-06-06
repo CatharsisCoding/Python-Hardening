@@ -70,6 +70,11 @@ sudo apt install libxcb-cursor0
 
 
 ## Utilisation
+Pour lancer l'application, exécutez simplement la commande suivante dans votre terminal :
+
+```bash
+python3 framatome.py
+```
 **L'application est conçue pour être simple et intuitive à utiliser. Voici comment utiliser chaque fonctionnalité :**
 
 **Sécurisation des fichiers** : Cliquez sur le bouton "Sécuriser Fichier" et sélectionnez le fichier à sécuriser. Entrez ensuite votre mot de passe sudo lorsque vous y êtes invité.
