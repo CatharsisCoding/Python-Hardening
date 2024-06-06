@@ -6,13 +6,29 @@ L'application de renforcement de la sécurité est une interface utilisateur gra
 L'application offre les fonctionnalités suivantes :
 
 Sécurisation des fichiers : Permet de modifier les permissions des fichiers pour les rendre plus sécurisés.
+
+
 Mise à jour du système : Met à jour la liste des paquets et les paquets installés sur le système.
+
+
 Désactivation d'apache2 : Arrête le service Apache HTTP Server.
+
+
 Configuration du pare-feu : Configure le pare-feu en définissant des politiques par défaut pour les paquets entrants, sortants et en transit, ainsi que des règles spécifiques pour autoriser certaines connexions.
+
+
 Désactivation du port 80 : Bloque les connexions entrantes sur le port 80.
+
+
 Scan des vulnérabilités : Utilise l'outil Nmap pour scanner les vulnérabilités de base sur le système local.
+
+
 Affichage des règles de pare-feu : Affiche les règles de pare-feu actuellement en vigueur.
+
+
 Suppression des règles de pare-feu : Supprime toutes les règles de pare-feu. Une confirmation sera demandée car cette action est potentiellement dangereuse.
+
+
 ## Prérequis
 
 Avant d'exécuter cette application, assurez-vous d'avoir installé les logiciels et les modules nécessaires sur votre système.
