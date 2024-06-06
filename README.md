@@ -18,28 +18,37 @@ Avant d'exécuter cette application, assurez-vous d'avoir installé les logiciel
 ### Logiciels requis :
 
 - **iptables** : Un utilitaire de ligne de commande pour configurer le pare-feu du noyau Linux. Vous pouvez l'installer sur Ubuntu en utilisant la commande suivante :
-sudo apt update
+```
 sudo apt install iptables
-
+```
 
 - **Apache2** : Un serveur HTTP populaire. Si vous prévoyez d'utiliser la fonctionnalité de désactivation d'Apache2, vous pouvez l'installer sur Ubuntu avec :
-sudo apt update
+```
 sudo apt install apache2
+```
 
 - **Nmap** : Un scanner de réseau et d'analyse de sécurité. Vous pouvez l'installer sur Ubuntu avec :
-sudo apt update
+```
 sudo apt install nmap
-
+```
 
 ### Modules Python requis :
 
 - **PySide6** : Une bibliothèque permettant de créer des interfaces graphiques utilisateurs (GUI) en utilisant Qt 6. Vous pouvez l'installer via pip :
+```
 pip install PySide6
-
+```
 
 
 - **pyqt-tools** : Un ensemble d'outils supplémentaires pour PyQt, y compris le Designer Qt, un outil de conception d'interfaces graphiques. Vous pouvez l'installer via pip :
-`pip install pyqt-tools
+```
+pip install pyqt-tools
+```
+- **libxcb-cursor0** : Une bibliothèque nécessaire pour charger le plugin de plate-forme Qt xcb. Vous pouvez l'installer sur Ubuntu avec :
+```
+sudo apt install libxcb-cursor0
+
+```
 ## Utilisation
 L'application est conçue pour être simple et intuitive à utiliser. Voici comment utiliser chaque fonctionnalité :
 
@@ -52,5 +61,5 @@ Scan des vulnérabilités : Cliquez sur le bouton "Scan des vulnérabilités" po
 ## Remarques
 Assurez-vous d'avoir le mot de passe sudoer appropriés pour exécuter les différentes fonctionnalités de l'application.
 Certaines fonctionnalités peuvent nécessiter des dépendances supplémentaires telles que Nmap ou iptables, assurez-vous de les installer si nécessaire.
-`sudo apt update
-sudo apt install nmap iptables
+``` sudo apt update
+```
