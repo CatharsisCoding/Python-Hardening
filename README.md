@@ -1,6 +1,6 @@
 # Documentation application durcissement sécurité ubuntu
-![image](https://github.com/CatharsisCoding/Python-Hardening-framatome/assets/97361977/002b785d-1a1b-4475-aced-ce47b6a506a3)
-![image](https://github.com/CatharsisCoding/Python-Hardening-framatome/assets/97361977/e17b5503-70a8-420e-b093-b56d9841ca4a)
+![image](https://github.com/CatharsisCoding/Python-Hardening-framatome/assets/97361977/002b785d-1a1b-4475-aced-ce47b6a506a3) ![image](https://github.com/CatharsisCoding/Python-Hardening-framatome/assets/97361977/e17b5503-70a8-420e-b093-b56d9841ca4a)
+
 
 
 ## Description
