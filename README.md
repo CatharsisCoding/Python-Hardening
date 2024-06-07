@@ -50,7 +50,7 @@ sudo apt install libxcb-cursor0
 Pour lancer l'application, exécutez simplement la commande suivante dans votre terminal :
 
 ```bash
-python3 framatome.py
+python3 hardening.py
 ```
 **L'application est conçue pour être simple et intuitive à utiliser. Voici comment utiliser chaque fonctionnalité :**
 
